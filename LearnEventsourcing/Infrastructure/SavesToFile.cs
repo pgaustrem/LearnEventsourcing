@@ -2,7 +2,7 @@
 using Application;
 using Domain;
 
-namespace PresentationAndInfrastructure.Infrastructure
+namespace PresentationAndInfrastructure.Infrastructure 
 {
     public class DataPersistenceException(string message) : DbException(message) {    }
 
